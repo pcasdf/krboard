@@ -1,0 +1,20 @@
+.key {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+
+  .english-letter {
+    flex: auto;
+    text-align: left;
+  }
+
+  .hangul-letter {
+    flex: auto;
+    text-align: right;
+  }
+}
