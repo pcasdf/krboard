@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { hot } from 'react-hot-loader/root';
 
-import Key from './components/Key';
+import Keyboard from './components/Keyboard';
 
 const App = () => {
   return (
     <div className="app">
-      <Key />
+      <Keyboard />
     </div>
   );
 };

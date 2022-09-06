@@ -2,10 +2,16 @@ import * as React from 'react';
 
 import './Key.scss';
 
-const Key = () => (
+interface KeyProps {
+  keycode: string;
+  english: string;
+  hangul: string;
+}
+
+const Key = ({ keycode, english, hangul }: KeyProps) => (
   <div className="key">
-    <span className="english-letter">e</span>
-    <span className="hangul-letter">k</span>
+    <span className="english-char">{english}</span>
+    <span className="hangul-char">{hangul}</span>
   </div>
 );
 
